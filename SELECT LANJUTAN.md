@@ -28,7 +28,7 @@ select warna,pemilik from desc_mobil where warna="Hitam" and pemilik="ibrahim";
 
 ## Hasil
 
-![tabel AND.png](tabel%20AND.png)
+![tabel AND.png](ASET%20SELECT/tabelAND.png)
 
 ## Analisis
 
@@ -56,7 +56,7 @@ select warna,pemilik from desc_mobil where warna="Hitam" or pemilik="ibrahim";
 
 ## Hasil
 
-![[tabel OR.png]]
+![tabel OR.png](ASET%20SELECT/tabelOR.png)
 
 ## Analisis
 
@@ -83,7 +83,7 @@ select * from desc_mobil where harga_rental between 100000 and 200000;
 
 ## Hasil
 
-![[tabel betweend - and.png]]
+![tabel betweend - and.png](ASET%20SELECT/tabelbetweend-and.png)
 
 ## Analisis
 
