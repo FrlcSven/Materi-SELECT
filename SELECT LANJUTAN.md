@@ -110,7 +110,7 @@ select * from desc_mobil where harga_rental not between 100000 and 200000;
 
 ## Hasil
 
-![[tabel not betweend.png]]
+![tabelnotbetweend.png](ASET%20SELECT/tabelnotbetweend.png)
 
 ## Analisis
 
@@ -192,7 +192,7 @@ select * from desc_mobil where harga_rental <> 50000;
 
 ## Hasil
 
-![[besar kecil.png]]
+![besar kecil.png]
 
 ## Analisis
 
