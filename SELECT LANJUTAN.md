@@ -192,7 +192,7 @@ select * from desc_mobil where harga_rental <> 50000;
 
 ## Hasil
 
-![besar kecil.png]
+![b](ASET%20SELECT/besar%20kecil.png)
 
 ## Analisis
 
@@ -220,7 +220,7 @@ select nama from Frhan
 ```
 ## Hasil
 
-![[TANTANGANLOGIN.png]]
+![TANTANGANLOGIN.png](ASET%20SELECT/TANTANGANLOGIN.png)
 ## Kesimpulan
 
 Jadi, secara keseluruhan, query ini bertujuan untuk mengambil nilai kolom "nama" dari tabel "Frhan" di mana nilai kolom "nama" sama dengan "FARHAN". Ini akan mengembalikan baris-baris yang memenuhi kriteria tersebut.
@@ -240,7 +240,7 @@ Jadi, secara keseluruhan, query ini bertujuan untuk mengambil nilai kolom "nama"
 
 ### Hasil
 
-![[IN.png]]
+![IN.png](ASET%20SELECT/IN.png)
 
 ### Analisis
 - `SELECT *`: Ini adalah klausa yang digunakan untuk memilih semua kolom dari tabel.
@@ -270,7 +270,7 @@ Kesimpulan: Query ini akan mengembalikan semua baris dari tabel "pelanggan" di m
 
 ### Hasil
 
-![[IN & AND.png]]
+![IN & AND.png](ASET%20SELECT/IN&AND.png)
 
 ### Analisis
 - `SELECT *`: Ini adalah klausa yang digunakan untuk memilih semua kolom dari tabel.
@@ -300,7 +300,7 @@ select * from desc_mobil
 
 ### Hasil
 
-![[IN & OR.png]]
+![[IN & OR.png]](ASET%20SELECT/IN&OR.png)
 ## Analisis
 - `SELECT *`: Ini adalah klausa yang digunakan untuk memilih semua kolom dari tabel.
 - `FROM desc_mobil`: Menunjukkan bahwa data diambil dari tabel bernama "desc_mobil".
@@ -341,9 +341,9 @@ select * from desc_mobil
 ```
 ### Hasil
 
-![[in and operator.png]]
+![[inandoperator.png]](ASET%20SELECT/inandoperator.png)
 
-![[in and operator 2.png]]
+![[in and operator 2.png]](ASET%20SELECT/inandoperator2.png)
 
 ### Analisis
 1. 
@@ -385,7 +385,7 @@ select * from desc_mobil
 
 ### Hasil
 
-![[like mencari awalan.png]]
+![[likemencariawalan.png]](ASET%20SELECT/likemencariawalan.png)
 ### Analisis
 - `SELECT *`: Ini adalah klausa yang digunakan untuk memilih semua kolom dari tabel.
 - `FROM desc_mobil`: Menunjukkan bahwa data diambil dari tabel bernama "desc_mobil".
@@ -411,7 +411,7 @@ select * from desc_mobil
 
 ### Hasil
 
-![[like mencari akhiran.png]]
+![[like mencari akhiran.png]](ASET%20SELECT/likemencariakhiran.png)
 
 ### Analisis
 - `SELECT *`: Ini adalah klausa yang digunakan untuk memilih semua kolom dari tabel.
@@ -438,7 +438,7 @@ select * from desc_mobil
 
 ### Hasil
 
-![[mencari awal akhir.png]]
+![[mencari awal akhir.png]](ASET%20SELECT/mencariawalakhir.png)
 
 ### Analisis
 - `SELECT *`: Ini adalah klausa yang digunakan untuk memilih semua kolom dari tabel.
@@ -470,9 +470,9 @@ select * from desc_mobil
 ```
 ### Hasil
 
-![[mencari berdasarkan total karakter.png]]
+![[mencariberdasarkantotalkarakter.png]](ASET%20SELECT/mencariberdasarkantotalkarakter.png)
 
-![[mencari berdasarkan total karakter 2.png]]
+![[mencari berdasarkan total karakter 2.png]](ASET%20SELECT/mencariberdasarkantotalkarakter2.png)
 ### Analisis
 1. 
 - `SELECT *`: Ini adalah klausa yang digunakan untuk memilih semua kolom dari tabel.
@@ -512,9 +512,9 @@ select * from desc_mobil
 ```
 ### Hasil
 
-![[kombinasi.png]]
+![[kombinasi.png]](ASET%20SELECT/kombinasi.png)
 
-![[kombinasi 2.png]]
+![[kombinasi 2.png]](ASET%20SELECT/kombinasi2.png)
 
 ### Analisis
 1. 
@@ -546,7 +546,7 @@ select * from desc_mobil where peminjam not like 'A%';
 ```
 ### Hasil
 
-![[not like.png]]
+![[not like.png]](ASET%20SELECT/notlike.png)
 
 ### Analisis
 - `SELECT *`: Ini adalah klausa yang digunakan untuk memilih semua kolom dari tabel.
@@ -555,17 +555,6 @@ select * from desc_mobil where peminjam not like 'A%';
 
 ### Kesimpulan
 Kesimpulan: Query ini akan mengembalikan semua baris dari tabel "desc_mobil" di mana nama peminjam mobil tidak dimulai dengan huruf 'A'. Dengan kata lain, query ini akan memberikan daftar mobil yang belum dipinjam oleh orang yang namanya dimulai dengan 'A'.
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -587,7 +576,7 @@ select * from desc_mobil where peminjam is null;
 
 ### Hasil 
 
-![[mencari data kosong.png]]
+![[mencaridatakosong.png]](ASET%20SELECT/mencaridatakosong.png)
 
 ### Analisis
 
@@ -613,7 +602,7 @@ select * from desc_mobil where peminjam is not null;
 ```
 ### Hasil
 
-![[mencari data yang tidak kosong.png]]
+![[mencaridatayangtidakkosong.png]](ASET%20SELECT/mencaridatayangtidakkosong.png)
 ### Analisis
 
 1. `SELECT *`: Perintah ini digunakan untuk memilih semua kolom dari tabel.
@@ -639,7 +628,7 @@ select * from desc_mobil order by peminjam asc;
 
 ### Hasil
 
-![[mengurutkan data dari data terkecil.png]]
+![[mengurutkandatadaridataterkecil.png]](ASET%20SELECT/mengurutkandatadaridataterkecil.png)
 
 ### Analisis
 
@@ -664,7 +653,7 @@ select * from desc_mobil order by peminjam desc;
 ```
 ### Hasil
 
-![[mengurutkan data dari data terbesar.png]]
+![[mengurutkan data dari data terbesar.png]](ASET%20SELECT/mengurutkandatadaridataterbesar.png)
 ### Analisis
 
 1. `SELECT *`: Perintah ini digunakan untuk memilih semua kolom dari tabel.
@@ -694,9 +683,9 @@ select distinct (harga_rental) from desc_mobil order by harga_rental desc;
 ```
 ## Hasil
 
-![[distinc.png]]
+![[distinc.png]](ASET%20SELECT/distinc.png)
 
-![[distinc 1.png]]
+![[distinc 1.png]](ASET%20SELECT/distinc1.png)
 ## Analisis
 
 1. `SELECT DISTINCT pemilik`: Perintah ini digunakan untuk memilih nilai unik dari kolom `pemilik`.
@@ -724,7 +713,7 @@ select concat (pemilik,warna) from desc_mobil;
 ```
 ### Hasil
 
-![[kolom tanpa pemisah.png]]
+![[kolomtanpapemisah.png]](ASET%20SELECT/kolomtanpapemisah.png)
 ### Analisis
 
 Perintah SQL di atas menggunakan fungsi CONCAT untuk menggabungkan nilai dari dua kolom, yaitu "pemilik" dan "warna", dari tabel "desc_mobil". Ini akan menghasilkan sebuah kolom baru yang berisi hasil penggabungan nilai dari kedua kolom tersebut.
@@ -745,7 +734,7 @@ select concat_ws("-",no_plat,no_mesin,id_mobil) from desc_mobil;
 ```
 ### Hasil
 
-![[kolom dengan pemisah.png]]
+![[kolom dengan pemisah.png]](ASET%20SELECT/kolomdenganpemisah.png)
 ### Analisis
 
 Perintah SQL di atas menggunakan fungsi CONCAT_WS untuk menggabungkan nilai dari tiga kolom, yaitu "no_plat", "no_mesin", dan "id_mobil", dari tabel "desc_mobil". Fungsi CONCAT_WS memungkinkan kita untuk menentukan pemisah yang akan digunakan di antara nilai-nilai yang digabungkan.
@@ -767,7 +756,7 @@ select concat_ws("+",pemilik,peminjam) as collab from desc_mobil;
 ```
 ### Hasil
 
-![[nama kolom alias.png]]
+![[namakolomalias.png]](ASET%20SELECT/namakolomalias.png)
 ### Analisis
 
 Perintah SQL di atas menggunakan fungsi CONCAT_WS untuk menggabungkan nilai dari dua kolom, yaitu "pemilik" dan "peminjam", dari tabel "desc_mobil". Fungsi CONCAT_WS memungkinkan untuk menggabungkan nilai-nilai tersebut dengan menggunakan tanda "+" sebagai pemisah di antara mereka.
@@ -796,7 +785,7 @@ create view info_no_plat as
 ```
 ### Hasil
 
-![[membuat tabel virtual.png]]
+![[membuattabelvirtual.png]](ASET%20SELECT/membuattabelvirtual.png)
 ### Analisis
 
 Perintah SQL di atas membuat sebuah view dengan nama "info_no_plat". View ini akan menampilkan kolom "id_mobil", "no_plat", "pemilik", dan "peminjam" dari tabel "desc_mobil" hanya untuk baris-baris di mana nilai kolom "pemilik" adalah "ibrahim".
@@ -817,7 +806,7 @@ select * from nama_tabel;
 select * from info_no_plat;
 ```
 ### Hasil
-![[menampilkan tabel virtual.png]]
+![[menampilkan tabel virtual.png]](ASET%20SELECT/menampilkantabelvirtual.png)
 ### Analisis
 
 Perintah SQL di atas menjalankan kueri untuk menampilkan semua data dari view yang disebut "info_no_plat".
@@ -837,7 +826,7 @@ drop view info_no_plat;
 ```
 ### Hasil
 
-![[hapus tabel virtual.png]]
+![[hapus tabel virtual.png]](ASET%20SELECT/hapustabelvirtual.png)
 ### Analisis
 
 Perintah SQL di atas adalah perintah untuk menghapus view yang disebut "info_no_plat" dari basis data.
@@ -867,7 +856,7 @@ CREATE VIEW mobil_Tanpa_peminjam AS
 ```
 ### Hasil
 
-![[TANTANGAN2.png]]
+![[TANTANGAN2.png]](ASET%20SELECT/TANTANGAN2.png)
 ### Analisis
 
 `CREATE VIEW mobil_tanpa_peminjam AS` : adalah perintah untuk membuat sebuah view baru atau seperti tabel baru dalam basis data dengan nama mobil_tanpa_peminjam.
@@ -892,7 +881,7 @@ SELECT * FROM mobil_tanpa_peminjam; digunakan untuk menampilkan semua data dari 
 - `WHERE id_mobil=2` adalah klausa yang menentukan kondisi di mana perubahan akan diterapkan, dalam hal ini, hanya pada baris dengan nilai `id_mobil` sama dengan 2.
 
 ### Hasil 
-![[t2.png]]
+![[t2.png]](ASET%20SELECT/t2.png)
 
 ## Nomor 3
 
@@ -915,7 +904,7 @@ select sum(harga_rental) as total_harga from desc_mobil;
 ```
 ### Hasil
 
-![[agregas sm1.png]]
+![[agregassm1.png]](ASET%20SELECT/agregassm1.png)
 ### Analisis
 
 1. `SELECT`: Ini adalah klausa dalam SQL yang digunakan untuk memilih kolom atau ekspresi dari sebuah tabel.
@@ -957,11 +946,11 @@ select count(peminjam) from desc_mobil;
 ### Hasil  
 Pemilik
 
-![[q.png]]
+![[q.png]](ASET%20SELECT/q.png)
 
 Peminjam
 
-![[pm.png]]
+![[pm.png]](ASET%20SELECT/pm.png)
 ### Analisis
 
 Pemilik
@@ -997,7 +986,7 @@ SELECT MIN(harga_rental) AS MINIMAL FROM desc_mobil;
 ```
 ### Hasil
 
-![[MIN.png]]
+![[MIN.png]](ASET%20SELECT/MIN.png)
 ### Analisis
 
 1. `SELECT MIN(harga_rental) AS MINIMAL FROM desc_mobil`: Ini adalah klausa SELECT dalam SQL yang digunakan untuk mengambil nilai minimum dari kolom "harga_rental" dari tabel "desc_mobil". Fungsi agregat MIN() digunakan untuk menghitung nilai minimum dari semua nilai dalam kolom "harga_rental".
@@ -1019,7 +1008,7 @@ SELECT MAX(harga_rental) AS MAXIMAL FROM desc_mobil;
 ```
 ### Hasil
 
-![[MAX.png]]
+![[MAX.png]](ASET%20SELECT/MAX.png)
 ### Analisis
 
 1. `SELECT MAX(harga_rental) AS MAXIMAL FROM desc_mobil`: Ini adalah klausa SELECT dalam SQL yang digunakan untuk mengambil nilai maksimum dari kolom "harga_rental" dari tabel "desc_mobil". Fungsi agregat MAX() digunakan untuk menghitung nilai maksimum dari semua nilai dalam kolom "harga_rental".
@@ -1041,7 +1030,7 @@ SELECT AVG(harga_rental) AS RATA_RATA FROM desc_mobil;
 ```
 ### Hasil
 
-![[AVG.png]]
+![[AVG.png]](ASET%20SELECT/AVG.png)
 
 ### Analisis
 
