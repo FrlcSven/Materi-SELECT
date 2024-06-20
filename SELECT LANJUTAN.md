@@ -215,12 +215,12 @@ kesimpulan dari program ini adalah bahwa hasilnya akan berisi baris-baris dari t
 ## Struktur
 
 ```mysql
-select nama from Frhan
+select nama from akun
     -> where nama="FARHAN";
 ```
 ## Hasil
 
-![TANTANGANLOGIN.png](ASET%20SELECT/TANTANGANLOGIN.png)
+![TANTANGANLOGIN.png](login.png)
 ## Kesimpulan
 
 Jadi, secara keseluruhan, query ini bertujuan untuk mengambil nilai kolom "nama" dari tabel "Frhan" di mana nilai kolom "nama" sama dengan "FARHAN". Ini akan mengembalikan baris-baris yang memenuhi kriteria tersebut.
