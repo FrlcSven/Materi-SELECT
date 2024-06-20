@@ -83,7 +83,7 @@ select * from desc_mobil where harga_rental between 100000 and 200000;
 
 ## Hasil
 
-![tabel betweend - and.png](ASET%20SELECT/tabelbetweend-and.png)
+![tabel betweend - and.png](1.png)
 
 ## Analisis
 
@@ -110,7 +110,7 @@ select * from desc_mobil where harga_rental not between 100000 and 200000;
 
 ## Hasil
 
-![tabelnotbetweend.png](ASET%20SELECT/tabelnotbetweend.png)
+![tabelnotbetweend.png](2.png)
 
 ## Analisis
 
@@ -138,7 +138,7 @@ select * from nama_tabel where nama_kolom1 <= nilaikolom1;
 
 ## Hasil
 
-![[tabel lebih kecil sama dengan.png]]
+![tabel lebih kecil sama dengan.png](3.png)
 ## Analisis
 
 1. `SELECT * FROM desc_mobil`: Ini adalah klausa SELECT dalam SQL yang digunakan untuk memilih semua kolom dari tabel "desc_mobil". Dengan pernyataan ini, kita menginstruksikan basis data untuk mengambil semua kolom dari setiap baris di tabel "desc_mobil".
@@ -164,7 +164,7 @@ select * from desc_mobil where harga_rental >= 50000;
 
 ## Hasil
 
-![[tabel lebih besar sama dengan.png]]
+![tabel lebih besar sama dengan.png](4.png)
 
 ## Analisis
 
@@ -190,9 +190,9 @@ select * from nama_tabel where nama_kolom <> nilai_kolom;
 select * from desc_mobil where harga_rental <> 50000;
 ```
 
-## Hasil
+## Hasill
 
-![b](ASET%20SELECT/besar%20kecil.png)
+![b](5.png)
 
 ## Analisis
 
