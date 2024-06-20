@@ -209,7 +209,7 @@ kesimpulan dari program ini adalah bahwa hasilnya akan berisi baris-baris dari t
 
 ## Penjelasan
 
-1. `SELECT nama FROM Frhan`: Ini adalah klausa SELECT dalam SQL yang digunakan untuk memilih kolom "nama" dari tabel "Frhan". Dengan pernyataan ini, kita menginstruksikan basis data untuk mengambil nilai kolom "nama" dari setiap baris di tabel "Frhan".
+1. `SELECT nama FROM akun`: Ini adalah klausa SELECT dalam SQL yang digunakan untuk memilih kolom "nama" dari tabel "Frhan". Dengan pernyataan ini, kita menginstruksikan basis data untuk mengambil nilai kolom "nama" dari setiap baris di tabel "Frhan".
     
 2. `WHERE nama="FARHAN"`: Ini adalah klausa WHERE yang digunakan untuk memberikan kriteria pemfilteran pada hasil query. Dalam hal ini, kita membatasi hasil query hanya pada baris-baris di mana nilai kolom "nama" sama dengan "FARHAN".
 ## Struktur
