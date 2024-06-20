@@ -220,6 +220,8 @@ select nama from akun
 ```
 ## Hasil
 
+![TANTANGANLOGIN.png](6.png)
+
 ![TANTANGANLOGIN.png](login.png)
 ## Kesimpulan
 
