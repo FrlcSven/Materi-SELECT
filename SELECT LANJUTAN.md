@@ -211,7 +211,7 @@ kesimpulan dari program ini adalah bahwa hasilnya akan berisi baris-baris dari t
 
 1. `SELECT nama FROM akun`: Ini adalah klausa SELECT dalam SQL yang digunakan untuk memilih kolom "nama" dari tabel "Frhan". Dengan pernyataan ini, kita menginstruksikan basis data untuk mengambil nilai kolom "nama" dari setiap baris di tabel "Frhan".
     
-2. `WHERE nama="FARHAN"`: Ini adalah klausa WHERE yang digunakan untuk memberikan kriteria pemfilteran pada hasil query. Dalam hal ini, kita membatasi hasil query hanya pada baris-baris di mana nilai kolom "nama" sama dengan "FARHAN".
+2. `WHERE nama="Githa"`: Ini adalah klausa WHERE yang digunakan untuk memberikan kriteria pemfilteran pada hasil query. Dalam hal ini, kita membatasi hasil query hanya pada baris-baris di mana nilai kolom "nama" sama dengan "Githa".
 ## Struktur
 
 ```mysql
@@ -220,9 +220,8 @@ select nama from akun
 ```
 ## Hasil
 
-![TANTANGANLOGIN.png](6.png)
+![TANTANGANLOGIN.png](9.png)
 
-![TANTANGANLOGIN.png](login.png)
 ## Kesimpulan
 
 Jadi, secara keseluruhan, query ini bertujuan untuk mengambil nilai kolom "nama" dari tabel "Frhan" di mana nilai kolom "nama" sama dengan "FARHAN". Ini akan mengembalikan baris-baris yang memenuhi kriteria tersebut.
